@@ -1,0 +1,29 @@
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 22%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgb(24, 25, 26);
+}
+
+.navigate{
+    width: 8%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgb(24, 25, 26);
+}
+
+.content{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(24, 25, 26);
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    overflow-y: scroll;
+}
